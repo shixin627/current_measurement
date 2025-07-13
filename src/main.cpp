@@ -125,7 +125,7 @@ void loop() {
   Serial.print("ADC: ");
   Serial.print(adcRawValue);
   Serial.print(" | Current: ");
-  Serial.print(voltageValue, 5);
+  Serial.print(voltageValue, 9);
   Serial.println(" A");
   
   // 等待 1 秒後進行下次測量
