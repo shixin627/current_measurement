@@ -1,0 +1,11 @@
+# Required Python packages for CS1237 Current Measurement Data Logger
+
+# Serial communication
+pyserial>=3.5
+
+# Data processing (optional, for advanced data analysis)
+pandas>=1.3.0
+numpy>=1.21.0
+
+# Plotting (optional, for data visualization)
+matplotlib>=3.5.0
